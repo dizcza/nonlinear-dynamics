@@ -1,0 +1,13 @@
+Chaos is aperiodic long-term behaviour in a deterministic system that exhibits sensitive dependence on initial conditions.
+An attractor can be a point, a finite set of points, a curve, a manifold, or even a complicated set with a fractal structure known as a strange (chaotic) attractor.
+
+Unknown source:
+  Lorenz attractor is aperiodic. Aperiodic long-term behaviour: a set of trajectories exists that does not settle on FPs, periodic or quasiperiodic orbits.
+
+Attractors are bounded objects.
+A chaotic attractor is the closure of the set of its unstable periodic orbits. The reason why we cannot traverse a particular unstable orbit of a chaotic attractor is because of the errors that solvers and machine precision produce. These computational errors bump off the state point from one unstable orbit to another at each iteration, and this bouncing covers the space of a chaotic attractor.
+
+Lyapunov exponents measure the exponential growth of the distance between two (close) points on an attractor as they move in time.
+If a system is chaotic, at least one Lyapunov exponent is positive.
+If a system is dissipative, the sum of Lyapunov exponents is negative. Lorenz system is dissipative, volumes in phase space contract.
+Typically, only the first (the largest) Lyapunov exponent lambda_1 can be reliably estimated. All other n-1 Lyapunov exponents are left unknown unless there is a corresponding equation that defines the dynamics of a system.
